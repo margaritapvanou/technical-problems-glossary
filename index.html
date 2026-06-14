@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Γλωσσάρι Τεχνικών Όρων</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 750px; margin: 0 auto; padding: 20px; color: #333; background: #f9f9f9; }
+  .header { background: #0078d4; color: white; padding: 20px; border-radius: 8px; margin-bottom: 24px; }
+  .header h1 { margin: 0 0 6px; font-size: 22px; }
+  .header p { margin: 0; font-size: 13px; opacity: 0.9; }
+  .term { background: white; border-radius: 8px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #0078d4; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .term.green { border-left-color: #107c10; }
+  .term.orange { border-left-color: #d83b01; }
+  .term.purple { border-left-color: #5c2d91; }
+  .term.red { border-left-color: #c00000; }
+  .term-title { font-size: 16px; font-weight: bold; color: #0078d4; margin: 0 0 6px; }
+  .term.green .term-title { color: #107c10; }
+  .term.orange .term-title { color: #d83b01; }
+  .term.purple .term-title { color: #5c2d91; }
+  .term.red .term-title { color: #c00000; }
+  .term-subtitle { font-size: 12px; color: #888; margin: 0 0 10px; }
+  .term-desc { font-size: 14px; color: #444; line-height: 1.7; margin: 0 0 8px; }
+  .term-example { background: #f5f5f5; border-radius: 4px; padding: 8px 12px; font-size: 13px; color: #555; font-style: italic; }
+  .term-example span { font-weight: bold; font-style: normal; }
+  .section-title { font-size: 13px; font-weight: bold; color: #888; text-transform: uppercase; letter-spacing: 1px; margin: 24px 0 8px; }
+  .footer { text-align: center; font-size: 12px; color: #aaa; margin-top: 24px; padding-top: 12px; border-top: 1px solid #eee; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📖 Γλωσσάρι Τεχνικών Όρων</h1>
+  <p>Αντιμετώπιση τεχνικών ζητημάτων σε συσκευές καθημερινότητας</p>
+</div>
+
+<div class="section-title">⚙️ Βασικές Ενέργειες</div>
+
+<div class="term">
+  <p class="term-title">Επανεκκίνηση (Restart)</p>
+  <p class="term-subtitle">Βασική ενέργεια αντιμετώπισης προβλημάτων</p>
+  <p class="term-desc">Η διαδικασία κλεισίματος και επανεκκίνησης του υπολογιστή ή μιας εφαρμογής. Διακόπτει όλες τις τρέχουσες διεργασίες και τις ξεκινά από την αρχή. Είναι συχνά η πρώτη και απλούστερη λύση σε πολλά τεχνικά προβλήματα.</p>
+  <div class="term-example"><span>Πότε να το χρησιμοποιήσεις:</span> Όταν μια εφαρμογή δεν ανταποκρίνεται, όταν ο υπολογιστής είναι αργός, όταν εμφανίζεται άγνωστο σφάλμα.</div>
+</div>
+
+<div class="term green">
+  <p class="term-title">Format (Μορφοποίηση)</p>
+  <p class="term-subtitle">Ακραία ενέργεια — χρήση μόνο ως έσχατη λύση</p>
+  <p class="term-desc">Η πλήρης διαγραφή όλων των δεδομένων από τον σκληρό δίσκο και επανεγκατάσταση του λειτουργικού συστήματος. Λύνει πολλά προβλήματα αλλά διαγράφει τα πάντα — αρχεία, εφαρμογές, ρυθμίσεις.</p>
+  <div class="term-example"><span>⚠️ Προσοχή:</span> Πριν κάνεις format, φρόντισε να έχεις αντίγραφο ασφαλείας (backup) όλων των αρχείων σου!</div>
+</div>
+
+<div class="term orange">
+  <p class="term-title">Force Quit (Αναγκαστικό Κλείσιμο)</p>
+  <p class="term-subtitle">Κλείσιμο εφαρμογής που έχει παγώσει</p>
+  <p class="term-desc">Η αναγκαστική διακοπή μιας εφαρμογής που δεν ανταποκρίνεται και δεν κλείνει κανονικά. Στα Windows γίνεται μέσω Task Manager (Ctrl+Alt+Del) και επιλογή "End Task".</p>
+  <div class="term-example"><span>Πώς:</span> Ctrl + Alt + Del → Task Manager → κλικ στην εφαρμογή → End Task</div>
+</div>
+
+<div class="term purple">
+  <p class="term-title">Task Manager (Διαχείριση Εργασιών)</p>
+  <p class="term-subtitle">Εργαλείο παρακολούθησης του συστήματος</p>
+  <p class="term-desc">Εργαλείο των Windows που δείχνει όλες τις τρέχουσες εφαρμογές και διεργασίες, καθώς και πόσους πόρους (CPU, RAM) καταναλώνουν. Βοηθά να εντοπίσεις ποια εφαρμογή επιβαρύνει τον υπολογιστή.</p>
+  <div class="term-example"><span>Πώς να το ανοίξεις:</span> Ctrl + Alt + Del → Task Manager, ή δεξί κλικ στη γραμμή εργασιών → Task Manager</div>
+</div>
+
+<div class="section-title">🌐 Δίκτυο & Συνδεσιμότητα</div>
+
+<div class="term">
+  <p class="term-title">Router / Modem</p>
+  <p class="term-subtitle">Συσκευή σύνδεσης στο internet</p>
+  <p class="term-desc">Το router/modem είναι η συσκευή που συνδέει τον υπολογιστή σου με το internet. Όταν χάνεις τη σύνδεση, η επανεκκίνηση του router είναι συχνά η πρώτη λύση.</p>
+  <div class="term-example"><span>Πώς να κάνεις restart:</span> Αποσύνδεσε το καλώδιο ρεύματος, περίμενε 30 δευτερόλεπτα, ξανασύνδεσε.</div>
+</div>
+
+<div class="term green">
+  <p class="term-title">WiFi</p>
+  <p class="term-subtitle">Ασύρματη σύνδεση στο internet</p>
+  <p class="term-desc">Τεχνολογία ασύρματης σύνδεσης που επιτρέπει στις συσκευές να συνδέονται στο internet χωρίς καλώδιο. Προβλήματα WiFi μπορεί να οφείλονται σε απόσταση από το router, εμπόδια ή πρόβλημα στον πάροχο.</p>
+  <div class="term-example"><span>Διάγνωση:</span> Αν άλλες συσκευές συνδέονται κανονικά, το πρόβλημα είναι στη συσκευή σου και όχι στο router.</div>
+</div>
+
+<div class="section-title">💾 Αποθήκευση & Απόδοση</div>
+
+<div class="term purple">
+  <p class="term-title">CPU (Επεξεργαστής)</p>
+  <p class="term-subtitle">Ο "εγκέφαλος" του υπολογιστή</p>
+  <p class="term-desc">Η CPU (Central Processing Unit) είναι ο κεντρικός επεξεργαστής του υπολογιστή — εκτελεί όλες τις υπολογιστικές λειτουργίες. Όταν η χρήση CPU φτάνει κοντά στο 100%, ο υπολογιστής γίνεται εξαιρετικά αργός γιατί δεν μπορεί να ανταποκριθεί σε νέες εργασίες.</p>
+  <div class="term-example"><span>Πώς να την ελέγξεις:</span> Task Manager → καρτέλα "Performance" → CPU. Αν είναι πάνω από 80-90% συνεχώς, κάποια εφαρμογή την επιβαρύνει.</div>
+</div>
+
+<div class="term orange">
+  <p class="term-title">Temporary Files (Προσωρινά Αρχεία)</p>
+  <p class="term-subtitle">Αρχεία που δημιουργούνται αυτόματα κατά τη χρήση</p>
+  <p class="term-desc">Αρχεία που δημιουργούν αυτόματα τα Windows και οι εφαρμογές κατά τη λειτουργία τους. Συσσωρεύονται με τον καιρό και καταλαμβάνουν χώρο στον δίσκο, επιβραδύνοντας τον υπολογιστή.</p>
+  <div class="term-example"><span>Πώς να τα διαγράψεις:</span> Πληκτρολόγησε %temp% στην αναζήτηση των Windows → επίλεξε όλα → διέγραψε.</div>
+</div>
+
+<div class="term purple">
+  <p class="term-title">RAM (Μνήμη)</p>
+  <p class="term-subtitle">Προσωρινή μνήμη του υπολογιστή</p>
+  <p class="term-desc">Η RAM είναι η "εργατική" μνήμη του υπολογιστή που χρησιμοποιείται για να τρέχουν οι εφαρμογές. Όταν η RAM είναι γεμάτη, ο υπολογιστής γίνεται αργός και εφαρμογές μπορεί να παγώνουν.</p>
+  <div class="term-example"><span>Σημείωση:</span> Η RAM διαφέρει από τον σκληρό δίσκο — ο δίσκος αποθηκεύει μόνιμα, η RAM είναι προσωρινή.</div>
+</div>
+
+<div class="section-title">🔒 Ασφάλεια</div>
+
+<div class="term red">
+  <p class="term-title">Firewall (Τείχος Προστασίας)</p>
+  <p class="term-subtitle">Εργαλείο ασφάλειας — ΜΗΝ το απενεργοποιείς!</p>
+  <p class="term-desc">Το firewall είναι ένα σύστημα ασφαλείας που ελέγχει και φιλτράρει την κυκλοφορία δικτύου, προστατεύοντας τον υπολογιστή από μη εξουσιοδοτημένη πρόσβαση και κακόβουλο λογισμικό.</p>
+  <div class="term-example"><span>⚠️ Σημαντικό:</span> Ποτέ μην απενεργοποιείς το firewall για να λύσεις ένα πρόβλημα — αφήνεις τον υπολογιστή εκτεθειμένο σε επιθέσεις.</div>
+</div>
+
+<div class="term red">
+  <p class="term-title">Driver (Πρόγραμμα Οδήγησης)</p>
+  <p class="term-subtitle">Λογισμικό επικοινωνίας συσκευής</p>
+  <p class="term-desc">Ένα driver είναι ένα μικρό πρόγραμμα που επιτρέπει στα Windows να "μιλούν" με μια συσκευή (εκτυπωτή, κάμερα, κάρτα δικτύου). Παλιά ή κατεστραμμένα drivers μπορεί να προκαλούν δυσλειτουργίες.</p>
+  <div class="term-example"><span>Πώς να ενημερώσεις:</span> Διαχείριση Συσκευών (Device Manager) → δεξί κλικ στη συσκευή → Update driver</div>
+</div>
+
+<div class="section-title">🔧 Λογισμικό</div>
+
+<div class="term">
+  <p class="term-title">Uninstall / Reinstall (Απεγκατάσταση / Επανεγκατάσταση)</p>
+  <p class="term-subtitle">Λύση για προβλήματα εφαρμογών</p>
+  <p class="term-desc">Η πλήρης διαγραφή μιας εφαρμογής (uninstall) και η εκ νέου εγκατάστασή της (reinstall). Χρησιμοποιείται όταν μια εφαρμογή έχει κατεστραμμένα αρχεία και δεν λειτουργεί σωστά παρά την επανεκκίνηση και ενημέρωση.</p>
+  <div class="term-example"><span>Πώς:</span> Ρυθμίσεις → Εφαρμογές → βρες την εφαρμογή → Κατάργηση εγκατάστασης → κατέβασέ την ξανά.</div>
+</div>
+
+<div class="term green">
+  <p class="term-title">Update (Ενημέρωση)</p>
+  <p class="term-subtitle">Σημαντική για ασφάλεια και λειτουργικότητα</p>
+  <p class="term-desc">Οι ενημερώσεις διορθώνουν σφάλματα, βελτιώνουν την απόδοση και κλείνουν κενά ασφαλείας. Παλιές εκδόσεις εφαρμογών συχνά παρουσιάζουν προβλήματα που λύνονται με απλή ενημέρωση.</p>
+  <div class="term-example"><span>Συμβουλή:</span> Κράτα πάντα ενημερωμένα τα Windows και τις εφαρμογές σου για βέλτιστη λειτουργία.</div>
+</div>
+
+<div class="footer">
+  Αντιμετώπιση τεχνικών ζητημάτων σε συσκευές καθημερινότητας | Ελπινίκη Ναλμπάντη & Μαργαρίτα Παπουτσή Βανού | ΨΣ-ΗΜ-721
+</div>
+
+</body>
+</html>
